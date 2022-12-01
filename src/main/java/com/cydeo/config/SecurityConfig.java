@@ -83,7 +83,6 @@ public class SecurityConfig {
                     .key("cydeo")
                     .userDetailsService(securityService)
                 .and().build();
-
     }
 
 
